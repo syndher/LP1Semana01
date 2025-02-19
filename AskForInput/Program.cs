@@ -17,6 +17,10 @@ namespace MeuPrograma
                 Console.WriteLine("Enter an integer:");
                 string x = Console.ReadLine();
                 int y = int.Parse(x);
+                Console.WriteLine("Enter real number:");
+                string real = Console.ReadLine();
+                float freal = float.Parse(real);
+                
 
 
 
