@@ -17,6 +17,13 @@
                 uint b = 0x0F;
                 Console.WriteLine(a);
                 Console.WriteLine(b);
+
+                char star = '\u2606';
+                char arrow = '\u27B3';
+                char checkmark = '\u2713';
+                Console.WriteLine(star);
+                Console.WriteLine(arrow);
+                Console.WriteLine(checkmark);
             }
         }
     }
