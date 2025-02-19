@@ -14,16 +14,22 @@
         static void Main (string[] args)
             {
                 int a = 1;
-                uint b = 0x0F;
+                uint b = 0x0FU;
                 Console.WriteLine(a);
                 Console.WriteLine(b);
 
                 char star = '\u2606';
                 char arrow = '\u27B3';
                 char checkmark = '\u2713';
+
                 Console.WriteLine(star);
                 Console.WriteLine(arrow);
                 Console.WriteLine(checkmark);
+
+                double real1 = 23;
+                float real2 = 12.512f;
+                Console.WriteLine(real1);
+                Console.WriteLine(real2);
             }
         }
     }
