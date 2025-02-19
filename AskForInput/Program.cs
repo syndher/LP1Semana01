@@ -20,7 +20,10 @@ namespace MeuPrograma
                 Console.WriteLine("Enter real number:");
                 string real = Console.ReadLine();
                 float freal = float.Parse(real);
-                
+                float sum = y + freal;
+                Console.WriteLine($"The sum of {y} and {freal} is {sum}");
+
+
 
 
 
