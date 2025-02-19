@@ -1,4 +1,5 @@
 ﻿using System ;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 
@@ -21,6 +22,19 @@ using System.Text;
                 string fim = "Acabou a a"+'\u00E7'+'\u00E3'+"o";
                 Console.WriteLine(introducao);
                 Console.WriteLine(fim);
+
+                int x = 10;
+                int y = 3;
+                string conc1 = "abc" + 123;
+                string conc2 = "def" + x;
+                string valuex = $"the value of x is {x}";
+                string valuexy = $"the value of {x} + {y} is {x + y}";
+                Console.WriteLine(conc1);
+                Console.WriteLine(conc2);
+                Console.WriteLine(valuex);
+                Console.WriteLine(valuexy);
+
+
             }
         }
     }
