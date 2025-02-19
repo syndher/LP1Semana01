@@ -30,6 +30,12 @@
                 float real2 = 12.512f;
                 Console.WriteLine(real1);
                 Console.WriteLine(real2);
+
+                bool booleanTrue = true;
+                bool booleanFalse = false;
+                Console.WriteLine(booleanTrue);
+                Console.WriteLine(booleanFalse);
+                
             }
         }
     }
