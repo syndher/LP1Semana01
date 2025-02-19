@@ -11,8 +11,7 @@ using System.Text;
         class Program
         {
             /// <summary>
-            /// Starts the script to write "Hello World!" and
-            /// "Bye World!" on the console
+            /// Starts the script to write multiple types of strings
             /// </summary>
             /// <param name="args"></param>
         static void Main (string[] args)
